@@ -21,7 +21,7 @@ while True:
         sleep(400)
         
     else:
-       
+        
         display.show(image1)
         sleep(200)
         display.show(image2)
@@ -32,3 +32,4 @@ while True:
         sleep(200)
         display.show(image5)
         sleep(200)
+        music.play(music.JUMP_UP)
